@@ -1,0 +1,211 @@
+
+
+fiyat={
+    "muz": 4,
+    "elma": 2,
+    "portakal": 1.5,
+    "armut": 3
+}
+
+stok={
+    "muz": 6,
+    "elma": 8,
+    "portakal": 32,
+    "armut": 15
+}
+
+
+print("\n","Stokta bulunan urunler",stok,"\n","Stoktaki urunlerin fiyatlari",fiyat)
+
+a=int(input("Kac farkli urun almak istiyorsunuz: "))
+
+if a==4:
+    for x in range(4):
+        b=0
+        alinacakUrun=input("Alacaginiz urunun ismini giriniz: ")
+        
+        ##
+        b=int(input("Almak istediginiz miktari giriniz: "))
+        ##
+        if alinacakUrun==str("muz"):
+            if stok["muz"]==0:
+                print("Stok bitmiştir")
+            if b > stok["muz"] > 0:
+                print("Stokta istediginiz kadar urun yok1")
+            if 0< b < stok["muz"]:
+                stok["muz"]=stok["muz"]-b
+                ucret=fiyat["muz"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("elma")):
+            if stok["elma"]==0:
+                print("Stok bitmiştir")
+            if b > stok["elma"] > 0:
+                print("Stokta istediginiz kadar urun yok2")
+            if 0< b < stok["elma"]:
+                stok["elma"]=stok["elma"]-b
+                ucret=fiyat["elma"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("portakal")):
+            if stok["portakal"]==0:
+                print("Stok bitmiştir")
+            if b > stok["portakal"] > 0:
+                print("Stokta istediginiz kadar urun yok3")
+            if 0< b < stok["portakal"]:
+                stok["portakal"]=stok["portakal"]-b
+                ucret=fiyat["portakal"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("armut")):
+            if stok["armut"]==0:
+                print("Stok bitmiştir")
+            if b > stok["armut"] > 0:
+                print("Stokta istediginiz kadar urun yok4")
+            if 0< b < stok["armut"]:
+                stok["armut"]=stok["armut"]-b
+                ucret=fiyat["armut"]*b
+                print("Odemeniz gereken ucret: ",ucret) 
+##############################################################
+if a==3:
+    for x in range(3):
+        b=0
+        alinacakUrun=input("Alacaginiz urunun ismini giriniz: ")
+        ##
+        b=int(input("Almak istediginiz miktari giriniz: "))
+        ##
+        if alinacakUrun==str("muz"):
+            if stok["muz"]==0:
+                print("Stok bitmiştir")
+            if b > stok["muz"] > 0:
+                print("Stokta istediginiz kadar urun yok1")
+            if 0< b < stok["muz"]:
+                stok["muz"]=stok["muz"]-b
+                ucret=fiyat["muz"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("elma")):
+            if stok["elma"]==0:
+                print("Stok bitmiştir")
+            if b > stok["elma"] > 0:
+                print("Stokta istediginiz kadar urun yok2")
+            if 0< b < stok["elma"]:
+                stok["elma"]=stok["elma"]-b
+                ucret=fiyat["elma"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("portakal")):
+            if stok["portakal"]==0:
+                print("Stok bitmiştir")
+            if b > stok["portakal"] > 0:
+                print("Stokta istediginiz kadar urun yok3")
+            if 0< b < stok["portakal"]:
+                stok["portakal"]=stok["portakal"]-b
+                ucret=fiyat["portakal"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("armut")):
+            if stok["armut"]==0:
+                print("Stok bitmiştir")
+            if b > stok["armut"] > 0:
+                print("Stokta istediginiz kadar urun yok4")
+            if 0< b < stok["armut"]:
+                stok["armut"]=stok["armut"]-b
+                ucret=fiyat["armut"]*b
+                print("Odemeniz gereken ucret: ",ucret)        
+###########################################################################
+if a==2:
+    for x in range(2):
+        b=0
+        alinacakUrun=input("Alacaginiz urunun ismini giriniz: ")
+        
+        ##
+        b=int(input("Almak istediginiz miktari giriniz: "))
+        ##
+        if alinacakUrun==str("muz"):
+            if stok["muz"]==0:
+                print("Stok bitmiştir")
+            if b > stok["muz"] > 0:
+                print("Stokta istediginiz kadar urun yok1")
+            if 0< b < stok["muz"]:
+                stok["muz"]=stok["muz"]-b
+                ucret=fiyat["muz"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("elma")):
+            if stok["elma"]==0:
+                print("Stok bitmiştir")
+            if b > stok["elma"] > 0:
+                print("Stokta istediginiz kadar urun yok2")
+            if 0< b < stok["elma"]:
+                stok["elma"]=stok["elma"]-b
+                ucret=fiyat["elma"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("portakal")):
+            if stok["portakal"]==0:
+                print("Stok bitmiştir")
+            if b > stok["portakal"] > 0:
+                print("Stokta istediginiz kadar urun yok3")
+            if 0< b < stok["portakal"]:
+                stok["portakal"]=stok["portakal"]-b
+                ucret=fiyat["portakal"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("armut")):
+            if stok["armut"]==0:
+                print("Stok bitmiştir")
+            if b > stok["armut"] > 0:
+                print("Stokta istediginiz kadar urun yok4")
+            if 0< b < stok["armut"]:
+                stok["armut"]=stok["armut"]-b
+                ucret=fiyat["armut"]*b
+                print("Odemeniz gereken ucret: ",ucret)    
+####################################################################################
+if a==1:
+    for x in range(1):
+        b=0
+        alinacakUrun=input("Alacaginiz urunun ismini giriniz: ")
+        
+        ##
+        b=int(input("Almak istediginiz miktari giriniz: "))
+        ##
+        if alinacakUrun==str("muz"):
+            if stok["muz"]==0:
+                print("Stok bitmiştir")
+            if b > stok["muz"] > 0:
+                print("Stokta istediginiz kadar urun yok1")
+            if 0< b < stok["muz"]:
+                stok["muz"]=stok["muz"]-b
+                ucret=fiyat["muz"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("elma")):
+            if stok["elma"]==0:
+                print("Stok bitmiştir")
+            if b > stok["elma"] > 0:
+                print("Stokta istediginiz kadar urun yok2")
+            if 0< b < stok["elma"]:
+                stok["elma"]=stok["elma"]-b
+                ucret=fiyat["elma"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("portakal")):
+            if stok["portakal"]==0:
+                print("Stok bitmiştir")
+            if b > stok["portakal"] > 0:
+                print("Stokta istediginiz kadar urun yok3")
+            if 0< b < stok["portakal"]:
+                stok["portakal"]=stok["portakal"]-b
+                ucret=fiyat["portakal"]*b
+                print("Odemeniz gereken ucret: ",ucret)
+        ##
+        elif alinacakUrun==(str("armut")):
+            if stok["armut"]==0:
+                print("Stok bitmiştir")
+            if b > stok["armut"] > 0:
+                print("Stokta istediginiz kadar urun yok4")
+            if 0< b < stok["armut"]:
+                stok["armut"]=stok["armut"]-b
+                ucret=fiyat["armut"]*b
+                print("Odemeniz gereken ucret: ",ucret)    
