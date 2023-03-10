@@ -19,7 +19,7 @@ for i in range(num_num):
 for i in range(num_sym):
     passwordList.append(random.choice(symbols))
 
-print(passwordList)
+#print(passwordList)
 
 
 random.shuffle(passwordList)
