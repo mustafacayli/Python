@@ -23,6 +23,3 @@ while not bidding_finis:
     elif should_continue=="yes":
         pass
     
-print("\n")
-print("\n")
-print(bids)
